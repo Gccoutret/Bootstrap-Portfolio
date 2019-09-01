@@ -7,15 +7,14 @@ background-color: beige;
   margin: 5%;
 }
 
-.aboutcontainer {
-  width: 80%;
- 
+.linkcontainer {
+  text-align: right;
+  margin-left: 60px  
 }
 
 .selfimg {
   width: 220px;
   height:  200px;
- 
   margin-right: 30px;
   float: left;
   display: inline;
@@ -24,20 +23,21 @@ background-color: beige;
 .abouttext {
   font-size: 18px;
   margin-top: 20px;
-  
+  }
 
-}
-
-.navlink {
+.nav-link {
   font-size: 18px;
+  text-align: right;
+ font-weight: bold;
+ 
 }
+
 
 .h1 {
   background-color: teal;
-  margin-left: 
-  
+  color: white;
+  }
 
-}
 
 .bg-light {
   background-color: ;
@@ -47,11 +47,40 @@ background-color: beige;
    background-color: white; 
   }
 
-  .navbar-expand-lg .navbar-nav .nav-link {
-
+.portfolio-image {
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-left: 20px;
   }
 
-  .navbar-nav { 
-  
+  .port {
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+  }
+
+  .portcontainer {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+  }
+ .h4 {
+   position: absolute;
+   top: 75%;
+   left: 50%;
+   transform: translate( -50%, -50%);
+   background-color: teal;
+   width: 100%;
+ }
+
+  @media (min-width: 768px) {
+
+.col-md-3 {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 50%; 
+}
   }
 
