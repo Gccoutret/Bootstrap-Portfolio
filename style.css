@@ -75,6 +75,11 @@ background-color: beige;
    width: 100%;
  }
 
+ .linktext {
+  background-color: teal;
+  color: white;
+ }
+
   @media (min-width: 768px) {
 
 .col-md-3 {
